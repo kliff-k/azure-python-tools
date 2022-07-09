@@ -1,0 +1,13 @@
+{
+  "app": "xxxxx",
+  "version": ["0.00.0"],
+  "top": "0",
+  "rtc_owner": "c000000",
+  "rtc_community": "",
+  "rtc_context_id": "",
+  "rtc_iteration_id": "",
+  "rtc_team_id": "",
+  "ac_user_token": "",
+  "user": "",
+  "pass": ""
+}

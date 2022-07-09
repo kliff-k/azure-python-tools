@@ -1,0 +1,6 @@
+SUDIG subscription - SICTM host -> adb-6797656025279249.9.azuredatabricks.net
+SICTM databricks cluster ID -> 6797656025279249
+
+Needs a user app token/key (PWD)
+
+jdbc:databricks://{{host}}:443/default;transportMode=http;ssl=1;httpPath=sql/protocolv1/o/{{cluster}}/0928-153448-goon402;AuthMech=3;UID=token;PWD={{token}}

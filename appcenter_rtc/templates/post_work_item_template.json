@@ -1,0 +1,33 @@
+{
+  "dc:title": "{{title}}",
+  "dc:description": "{{description}}",
+  "rtc_cm:contextId": "{{context_id}}",
+  "rtc_cm:item_portfolio": "",
+  "rtc_cm:squad": "",
+  "rtc_cm:centro_custo": "",
+  "rtc_cm:apelidoSistema": "",
+  "rtc_cm:siglaSistema": "",
+  "dc:creator": {
+    "rdf:resource": "{{host}}/jts/users/{{user}}"
+  },
+  "rtc_cm:ownedBy": {
+    "rdf:resource": "{{host}}/jts/users/{{user}}"
+  },
+  "rtc_cm:subscribers": [
+    {
+      "rdf:resource": "{{host}}/jts/users/{{user}}"
+    }
+  ],
+  "rtc_cm:responsavel": {
+    "rdf:resource": "{{host}}/jts/users/{{owner}}"
+  },
+  "rtc_cm:ContribuidorNegocio": {
+    "rdf:resource": "{{host}}/jts/users/{{owner}}"
+  },
+  "rtc_cm:plannedFor": {
+    "rdf:resource": "{{host}}/ccm/oslc/iterations/{{iteration_id}}"
+  },
+  "rtc_cm:teamArea": {
+    "rdf:resource": "{{host}}/ccm/oslc/teamareas/{{team_id}}"
+  }
+}
