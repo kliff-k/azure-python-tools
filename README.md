@@ -19,3 +19,6 @@ Small app to generate a list of Change Requisitions for the current week
 ## [AppCenter -> RTC](./appcenter_rtc/README.md)
 
 Application to list AppCenter error groups by a given query and automatically generate Jazz RTC Work Items for each one.
+
+
+Project might be split into smaller repos in the near future. 
